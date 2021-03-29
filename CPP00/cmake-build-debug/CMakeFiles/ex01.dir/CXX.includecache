@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rjoella/Documents/CPP/CPP00/ex01/Book.class.h
+string
+-
+iostream
+-
+Contact.class.h
+/Users/rjoella/Documents/CPP/CPP00/ex01/Contact.class.h
+
+/Users/rjoella/Documents/CPP/CPP00/ex01/Contact.class.h
+iostream
+-
+string
+-
+
+/Users/rjoella/Documents/CPP/CPP00/ex01/main.cpp
+Contact.class.h
+/Users/rjoella/Documents/CPP/CPP00/ex01/Contact.class.h
+Book.class.h
+/Users/rjoella/Documents/CPP/CPP00/ex01/Book.class.h
+iomanip
+-
+
